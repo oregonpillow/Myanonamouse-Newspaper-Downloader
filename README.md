@@ -8,5 +8,6 @@ The script downloads the torrents from the rss feeds and adds them to your Trans
 
 
 ### References
-Credit: @jcul https://github.com/jcul/bencode - script to easiely decode .torrent file and extract torrent file or torrent folder name
-Credit: @ Henry Koch https://www.henrykoch.de/en/python-remove-oldest-files-in-a-directory-only-a-defined-count-of-them-remains - Simple function to sort files in folder by date then keep only the most recent number. Used to prevent rss_completed_path becoming bloated over time with accumulating rss downloads. 
+* @jcul https://github.com/jcul/bencode - script to easiely decode .torrent file and extract torrent file or torrent folder name
+
+* @ Henry Koch https://www.henrykoch.de/en/python-remove-oldest-files-in-a-directory-only-a-defined-count-of-them-remains - Simple function to sort files in folder by date then keep only the most recent number. Used to prevent rss_completed_path becoming bloated over time with accumulating rss downloads. 
