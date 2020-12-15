@@ -1,5 +1,5 @@
 # Haugene-Mouse
-This is a simple script to automatically download torrents from myanonamouse rss feeds. The most sensible use case would be for downloading periodicals or other frequently updated rss feeds.
+This is a simple script to automatically download torrents from MyAnonamouse rss feeds. The most sensible use case would be for downloading periodicals or other frequently updated rss feeds.
 
 It's ideally designed for using alongside the legendary Haugene torrent container: https://github.com/haugene/docker-transmission-openvpn since you can expose a proxy service on the container then use that proxy within the script http requests - ensuring that the rss feed is accessed from the same ip that Transmission uses.
 
