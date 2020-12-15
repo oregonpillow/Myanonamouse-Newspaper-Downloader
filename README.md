@@ -46,15 +46,15 @@ rss_feeds = [
 ``` r
 latest_files = 10
 ```
-which sets how many of the most recent files on the rss feed you want to download. Useful if you only want perhaps the most recent 1 or 2 files.
+sets how many of the most recent files on the rss feed you want to download. Useful if you only want to download the most recent files each time.
 
 
 * [cleanup (int)](https://github.com/oregonpillow/Haugene-Mouse/blob/main/rss_downloader.py#L128):
 ``` r
 cleanup(rss_completed_path,30)
 ```
-this sets how many files can live in your rss_completed_path folder. Helps prevent the folder becoming bloated over time. A sensible upper limit would be:
-latest_files * len(rss_feeds) since this insures that all files you want to download can fit in the download folder. But setting to smaller numbers is fine if you want to limit how many files keep there at any given time.
+sets how many files can live in your rss_completed_path folder. Helps prevent the folder becoming bloated over time. A sensible upper limit would be:
+latest_files * len(rss_feeds) since this insures that all files you want to download can fit in the download folder. But setting to smaller number is fine if you want to limit how many files you keep there at any given time.
 
 
 ### 3. Run the script using python
