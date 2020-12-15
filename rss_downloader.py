@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 import os
 import shutil
 import time
-import bencode #https://github.com/jcul/bencode
+import bencode
 from multiprocessing.pool import ThreadPool
 
 #Set up parameters
