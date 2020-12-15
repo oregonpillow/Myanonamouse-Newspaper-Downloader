@@ -42,7 +42,7 @@ rss_feeds = [
 
 ### 2. Additionally, you can modify:
 
-* [latest_files (int)](https://github.com/oregonpillow/Haugene-Mouse/blob/main/rss_downloader.py#L128):
+* [latest_files (int)](https://github.com/oregonpillow/Haugene-Mouse/blob/main/rss_downloader.py#L42):
 ``` r
 latest_files = 10
 ```
