@@ -13,8 +13,7 @@ The script downloads the torrents from the rss feeds and adds them to your Trans
 
 
 ## Requirements
-* Requires Python3
-* No additional packages needed
+* Python3
 
 ## Running the script
 
