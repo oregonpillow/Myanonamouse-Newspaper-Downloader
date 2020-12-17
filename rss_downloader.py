@@ -14,7 +14,7 @@ proxies = {
 }
 
 transmission_completed_path = '<path>' #transmission's completed download folder
-transmission_watch_path = '<path>' #transmission's monitored/watched downloads fodler
+transmission_watch_path = '<path>' #transmission's monitored/watched downloads folder
 rss_completed_path = '<path>' #path to where successfully downloaded rss torrents should be copied to
 
 rss_feeds = [
