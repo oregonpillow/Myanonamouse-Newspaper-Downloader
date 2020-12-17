@@ -80,6 +80,7 @@ def rss_downloader(url):
 			file = open(torrent_file_name, "wb")
 			file.write(torrent_get.content)
 			file.close()
+			#wait until file is finnished downloading
 			while os.path.isfile(transmission_completed_file) == False:
 				time.sleep(1)
 				if os.path.isfile(transmission_completed_file):
