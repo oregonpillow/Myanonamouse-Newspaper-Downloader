@@ -6,6 +6,11 @@ import time
 import bencode
 from multiprocessing.pool import ThreadPool
 
+print(" ()()                  ____  ") 
+print(" (..)                 /|o  | ")
+print(" /\/\  Haugene-Mouse /o|  o| ")
+print("c\db/o............../o_|_o_| \n")
+
 #Set up parameters
 proxies = {
 'http': '<ip>:<port>',
