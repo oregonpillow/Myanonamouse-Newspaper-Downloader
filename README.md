@@ -44,14 +44,14 @@ rss_feeds = [
 
 ### 2. Additionally, you can modify:
 
-* 2.1 [latest_files (int)](https://github.com/oregonpillow/Haugene-Mouse/blob/main/rss_downloader.py#L42):
+* 2.1 [latest_files (int)](https://github.com/oregonpillow/Haugene-Mouse/blob/main/rss_downloader.py#L46):
 ``` r
 latest_files = 10
 ```
 sets how many of the most recent files on the rss feed you want to download. Useful if you only want to download the most recent files each time.
 
 
-* 2.2 [cleanup (int)](https://github.com/oregonpillow/Haugene-Mouse/blob/main/rss_downloader.py#L128):
+* 2.2 [cleanup (int)](https://github.com/oregonpillow/Haugene-Mouse/blob/main/rss_downloader.py#L133):
 ``` r
 cleanup(rss_completed_path,30)
 ```
