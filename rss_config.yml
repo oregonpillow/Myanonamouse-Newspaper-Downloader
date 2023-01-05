@@ -1,0 +1,19 @@
+---
+rss_feeds:
+# - <rss url>:<output folder name>
+  - https://03k7g.mrd.ninja/rss/56eddecf:financialTimes
+  - https://03k7g.mrd.ninja/rss/4372e209:wallStreetJournal
+  - https://03k7g.mrd.ninja/rss/514c3c63:economist
+  - https://03k7g.mrd.ninja/rss/89b932fc:DeutschPerfekt
+  - https://03k7g.mrd.ninja/rss/990cdc00:theGuardian
+proxy_host: http://192.168.0.230
+proxy_port: 8118
+proxy_user:
+proxy_pass:
+latest_issues: 5
+cleanup_issues: 5
+completed_path: /mnt/downloads_drive/seeding_space/completed
+watch_path: /mnt/downloads_drive/seeding_space/watch
+copy_path: /Users/timothypillow/Desktop/Daily_Papers
+log_path:
+guid_path: /Users/timothypillow/Desktop/guids.txt
